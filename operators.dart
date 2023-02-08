@@ -201,6 +201,9 @@ void main(List<String> args) {
   // Using null-aware operator
   var yy = w ?? xx;
   print('yy = $yy');
+  // Example
+  // var name = null;
+  // var fullName = name ?? 'Guest User';
 
 
   // Initializing variables
@@ -210,5 +213,6 @@ void main(List<String> args) {
   // Using null-aware assignment operator
   z ??= aa;
   print('z = $z');
-  
+  // Example
+  // var name ??= 'Guest User';  
 }
