@@ -20,3 +20,23 @@ Factorial is a mathematical operation that multiplies a number by all the number
 Enter a number: 5
 120
 ```
+
+## Assignment 3
+Concepts: Use Exception Handling and Asynchronous Programming for Input Validation of an email address.
+You need to make a program that will ask for an email address and will print "Valid email address" if the email address is valid and will print "Invalid email address" if the email address is invalid. The program will ask for an email address 3 times. If the email address is invalid 3 times, the program will print "Invalid email address" and will end. <br> _Note: Use exception handling and asynchronous programming._
+
+### Valid Email Address
+Regex for valid email address: 
+```
+^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$
+```
+### Sample Output
+```bash
+Enter email address: abccompany.com
+Invalid email address
+
+Enter email address: abc@company.com
+Valid email address
+```
+
+
