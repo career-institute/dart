@@ -30,7 +30,7 @@ void main() {
   print(_dynamic); // 25
   var _var = "Sarwar"; // var is a dynamic data type and now it is a String
   print(_var); // Sarwar
-  //! _var = 25; // var is a dynamic data type and now it is an Integer
+  //! _var = 25; // var is a var data type and now it can not be an Integer
 
   //* Example
   var age = 25;
@@ -55,13 +55,13 @@ void main() {
 
 /// Variables in Dart
 /// Rules for naming variables
-/// 1. Variable name can only contain letters, numbers, and underscores.
-/// 2. Variable name must start with a letter or an underscore.
-/// 3. Variable name cannot start with a number.
-/// 4. Variable name cannot contain spaces.
-/// 5. Variable name cannot be a keyword.
-/// 6. Variable name cannot be a reserved word.
-/// 7. Variable name cannot be a built-in identifier.
-/// 8. Variable name cannot be a built-in type.
-/// 9. Variable name cannot be a built-in function.
-/// 10. Variable name cannot be a built-in constant.
+/// 1. Variable name can only contain letters, numbers, and underscores. i.e. student_1
+/// 2. Variable name must start with a letter or an underscore. i.e. _student_1
+/// 3. Variable name cannot start with a number. //! i.e. 1_student
+/// 4. Variable name cannot contain spaces. //! i.e. student 1
+/// 5. Variable name cannot be a keyword. //! i.e. print
+/// 6. Variable name cannot be a reserved word. //! i.e. abstract
+/// 7. Variable name cannot be a built-in identifier. //! i.e. as
+/// 8. Variable name cannot be a built-in type. //! i.e. int
+/// 9. Variable name cannot be a built-in function. //! i.e. print
+/// 10. Variable name cannot be a built-in constant.  //! i.e. true
