@@ -155,23 +155,23 @@ void main(List<String> args) {
   print('r = $r');
 
   // Assigning value of r + s to r
-  r += s;
+  r += s; // r = r + s
   print('r += s = $r');
 
   // Assigning value of r - s to r
-  r -= s;
+  r -= s; // r = r - s
   print('r -= s = $r');
 
   // Assigning value of r * s to r
-  r *= s;
+  r *= s; // r = r * s
   print('r *= s = $r');
 
   // Assigning value of r / s to r
-  r /= s;
+  r /= s; // r = r / s
   print('r /= s = $r');
 
   // Assigning value of r % s to r
-  r %= s;
+  r %= s; // r = r % s
   print('r %= s = $r');
 
   /// Conditional Operators
