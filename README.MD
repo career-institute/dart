@@ -68,7 +68,6 @@ Calculate the percentage and grade according to the following table:
 | 60-69 | D |
 | 50-59 | E |
 | 0-49 | F |
-Note: _Use classes_
 
 ### Sample Output
 
