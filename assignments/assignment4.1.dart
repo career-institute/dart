@@ -1,4 +1,4 @@
-/// Assignment 4
+/// Assignment 4.1
 /// Write program that asks student for total marks and marks obtained in 5 subjects
 /// Calculate the percentage and grade according to the following table:
 /// | Percentage | Grade |
@@ -27,6 +27,7 @@
 
 /// Overall Percentage: 72.0
 /// Overall Grade: C
+/// Note: Use Classes and Loops
 
 import 'dart:io';
 
