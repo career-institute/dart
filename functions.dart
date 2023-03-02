@@ -1,6 +1,7 @@
 /// Functions in Dart
 /// Functions are first-class objects in Dart. This means that functions can be assigned to variables or passed as arguments to other functions.
-/// Function(input1, input2, …) { // function body }
+/// Function(input1, input2, …) 
+/// { // function body }
 
 /// Syntax of a function
 /// returnType functionName(input1, input2, …) {
@@ -31,7 +32,7 @@ void main(List<String> args) {
 
   // 2. Function with no return type and input parameters
   void functionWithNoReturnTypeAndInputParameters(String name, int age) {
-    print("Hi, I am $name and I am $age years old");
+    print("Hi, I am $name and I am $age years old"); // Hi, I am Usama and I am 27 years old
   }
 
   functionWithNoReturnTypeAndInputParameters("Usama", 27);
@@ -55,7 +56,7 @@ void main(List<String> args) {
   // 2. int.parse()
   // 3. double.parse()
   // 4. num.parse()
-  // 5. num.parse()
+  // 5. toString()
 
   // Anonymous functions
   // Anonymous functions are functions without a name.
@@ -84,6 +85,9 @@ void main(List<String> args) {
       "Hi, I am a lambda function with no return type and no input parameters");
   lambdaFunctionWithNoReturnTypeAndNoInputParameters();
 
+  /// int sum(int a, int b) {
+  ///  return a + b;
+  /// }
   int sum(int a, int b) => a + b;
   print(sum(12, 12)); // 24
 
