@@ -13,7 +13,7 @@
 /// }
 
 /// Example of a class
-class person {
+class Person {
   // Fields
   String? name;
   int? age;
@@ -21,7 +21,7 @@ class person {
 
   // Constructors
   // person(this.name, this.age, this.gender); // Unnamed Constructor
-  person(
+  Person(
       {required this.name,
       required this.age,
       required this.gender}); // Named Constructor
@@ -42,8 +42,8 @@ void main(List<String> args) {
   // String gender = "Male";
 
   // person _person = person('Usama', 27, 'Male'); // Unnamed Constructor
-  person _person =
-      person(name: 'Usama', age: 27, gender: 'Male'); // Named Constructor
+  Person _person =
+      Person(name: 'Usama', age: 27, gender: 'Male'); // Named Constructor
   print('Name: ' + _person.getName);
   print('Age: ${_person.age}');
   print('Gender: ' + _person.gender!);
