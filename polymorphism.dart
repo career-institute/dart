@@ -39,7 +39,7 @@ void main() {
   Cat cat = Cat("Whiskers");
   cat.makeSound(); // The Whiskers meows
 
-// polymorphism - animal variable can hold any subclass of Animal
+  // polymorphism - animal variable can hold any subclass of Animal
   animal = Dog("Buddy");
   animal.makeSound(); // The Buddy barks
 

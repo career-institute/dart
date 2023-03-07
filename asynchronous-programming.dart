@@ -4,17 +4,17 @@
 import 'dart:async';
 
 void main(List<String> args) {
-  downloading() {
-    // Timer
-    // The Timer class is used to execute a function after a specified duration.
-    Timer(Duration(seconds: 5), () {
-      print("The file has been downloaded.");
-    });
-  }
+  // downloading() {
+  //   // Timer
+  //   // The Timer class is used to execute a function after a specified duration.
+  //   Timer(Duration(seconds: 5), () {
+  //     print("The file has been downloaded.");
+  //   });
+  // }
 
-  print("Main program: Started");
-  downloading();
-  print("Main program: Ended");
+  // print("Main program: Started");
+  // downloading();
+  // print("Main program: Ended");
 
   // The Future class is used to represent a value that will be available in the future.
 
@@ -22,15 +22,16 @@ void main(List<String> args) {
   // then() - used to execute a function when the future completes.
   // catchError() - used to execute a function when the future completes with an error.
 
-  Future<String> downloadAFile() {
+  Future<String> checkLoginCredentials() {
     Future<String> result = Future.delayed(Duration(seconds: 6), () {
-      return "The file has been downloaded.";
+      return "Login Verified";
     });
     return result;
   }
 
   print("Main program: Started");
-  downloadAFile().then((result) {
+  checkLoginCredentials().then((result) {
     print(result);
+    print('Welcome to System');
   });
 }
